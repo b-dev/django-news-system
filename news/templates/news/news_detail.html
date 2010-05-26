@@ -1,0 +1,17 @@
+{% extends 'news/news_basic.html' %}
+{% load i18n %}
+
+{% block title %}
+   {{ news.title }} | {{ block.super }}
+{% endblock %}
+
+{% block main %}
+	<span class="news-back">
+		<a href="{% url list-news page_id %}">&lt;&lt; {% trans "back" %}</a>
+	</span>
+	<h2>{{ news.title }}</h2>
+	<span class="news-date">{{ news.created_at|date:"d.m.Y" }}, {{ news.user.get_full_name }}</span>
+	<p>
+		{{ news.body|safe|urlizetrunc:20 }}
+	</p>
+{% endblock %}

@@ -1,0 +1,21 @@
+#content {
+	width: 600px;
+	padding: 10px;
+	border: 1px dotted;
+}
+#links {
+	border: 0px;
+	float: right;
+}
+
+#links ul {
+	list-style-type: none;
+	border: 0px;
+}
+#links img {
+	border: 0px;
+}
+#links ul {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+}

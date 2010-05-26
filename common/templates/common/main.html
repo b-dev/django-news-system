@@ -1,0 +1,17 @@
+{% extends "common/base.html" %}
+
+{% block extra_head %}
+	<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}style/common.css" />
+{% endblock %}
+
+{% block content %}
+<div id="content">
+	<div id="links">
+		{% block links %}
+		{% endblock %}
+	</div>
+	{% block main %}
+	    <p>For the actual page information</p>
+	{% endblock main %}
+</div>
+{% endblock content %}

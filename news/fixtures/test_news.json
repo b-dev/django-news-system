@@ -1,0 +1,132 @@
+[
+   {
+      "pk": 10, 
+      "model": "news.news", 
+      "fields": {
+         "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).", 
+         "title": "It is a long established fact ", 
+         "created_at": "2009-10-09 21:57:19", 
+         "updated_at": "2010-01-31 05:17:19", 
+         "user": 1, 
+         "published": true, 
+         "slug": "it-is-a-long-established-fact"
+      }
+   }, 
+   {
+      "pk": 9, 
+      "model": "news.news", 
+      "fields": {
+         "body": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.", 
+         "title": "There are many variations of passages", 
+         "created_at": "2009-10-09 21:56:53", 
+         "updated_at": "2010-01-31 05:17:25", 
+         "user": 1, 
+         "published": true, 
+         "slug": "there-are-many-variations-of-passages"
+      }
+   }, 
+   {
+      "pk": 8, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam tellus, consectetur at accumsan nec, lacinia vitae libero. Sed viverra pretium urna, ut mattis tellus varius pellentesque. Nullam interdum augue sit amet nisl fermentum nec mollis erat volutpat. Fusce sit amet justo odio. Pellentesque in nisi nisl, eu molestie est. Pellentesque accumsan, ipsum ac posuere molestie, risus orci pharetra lacus, nec tempus augue justo a leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl eros, ullamcorper sit amet tincidunt sit amet, lobortis eget nisi. Morbi fermentum rhoncus sem, ut egestas nisi porttitor non. Mauris libero nunc, euismod nec pellentesque vitae, convallis eu augue.\r\n", 
+         "title": "Lipsum ac posuere molestie, risus orci pharetra lacus", 
+         "created_at": "2009-10-09 21:56:17", 
+         "updated_at": "2010-01-31 05:17:34", 
+         "user": 1, 
+         "published": true, 
+         "slug": "lipsum-ac-posuere-molestie-risus-orci-pharetra-la"
+      }
+   }, 
+   {
+      "pk": 7, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.", 
+         "title": "The Extremes of Good and Evil", 
+         "created_at": "2009-10-09 21:55:49", 
+         "updated_at": "2010-01-31 05:17:40", 
+         "user": 1, 
+         "published": true, 
+         "slug": "the-extremes-of-good-and-evil"
+      }
+   }, 
+   {
+      "pk": 6, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Nullam aliquet eleifend nisl, sed ultricies felis iaculis in. Suspendisse dignissim aliquet metus, et sollicitudin neque suscipit et. Duis ligula est, gravida eu sollicitudin mattis, laoreet eu velit. Mauris lobortis dui eu leo convallis in blandit mi mollis. Vestibulum quam erat, suscipit a luctus convallis, fringilla in quam. Ut vitae rutrum ligula. Cras laoreet lectus quis lacus consectetur in dictum nulla scelerisque. Duis lacinia, nulla eu auctor interdum, felis odio congue nisl, id vehicula odio felis a nunc. Suspendisse laoreet, odio eget egestas viverra, lacus lacus feugiat sem, a ornare leo libero vitae neque. Quisque laoreet rhoncus neque, at pretium ante facilisis in. Nam facilisis erat id ante rhoncus congue. Integer nibh nulla, porttitor eleifend bibendum a, auctor ut dui. ", 
+         "title": "Cum sociis", 
+         "created_at": "2009-10-09 21:54:50", 
+         "updated_at": "2010-01-31 05:17:46", 
+         "user": 1, 
+         "published": true, 
+         "slug": "cum-sociis"
+      }
+   }, 
+   {
+      "pk": 5, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Suspendisse lacinia porttitor faucibus. Vestibulum eget consequat sapien. Vestibulum eget sem et ante pellentesque suscipit non a est. Fusce in mi a odio faucibus sodales in et massa. Vestibulum mattis interdum sollicitudin. Aenean id turpis ante. Etiam ullamcorper porta ligula eu vehicula. Vivamus lacinia est eget quam ultricies quis hendrerit ante euismod. Donec blandit, augue id tempus interdum, augue nunc pharetra arcu, sed dignissim turpis mi vel lacus. Praesent iaculis, mauris at facilisis pellentesque, lacus lacus interdum dolor, a commodo lectus diam quis nibh. Suspendisse vel dui ac ipsum porta tincidunt. Pellentesque accumsan lorem lacus. Aliquam semper, ligula id lacinia volutpat, tortor ante fringilla arcu, quis ultrices metus tellus vel dolor. Nulla feugiat arcu pellentesque risus tempus a semper nulla lobortis. Ut interdum sem a ipsum venenatis suscipit. Cum sociis natoque penatibus e", 
+         "title": "Cum sociis natoque penatibus e", 
+         "created_at": "2009-10-09 21:54:15", 
+         "updated_at": "2010-01-31 05:17:53", 
+         "user": 1, 
+         "published": true, 
+         "slug": "cum-sociis-natoque-penatibus-e"
+      }
+   }, 
+   {
+      "pk": 4, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Nullam vitae ipsum eros", 
+         "title": "Nullam vitae ipsum eros pi", 
+         "created_at": "2009-10-09 21:53:50", 
+         "updated_at": "2010-01-31 05:17:59", 
+         "user": 1, 
+         "published": true, 
+         "slug": "nullam-vitae-ipsum-eros-pi"
+      }
+   }, 
+   {
+      "pk": 3, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam tellus, consectetur at accumsan nec, lacinia vitae libero. Sed viverra pretium urna, ut mattis tellus varius pellentesque. Nullam interdum augue sit amet nisl fermentum nec mollis erat volutpat. Fusce sit amet justo odio. Pellentesque in nisi nisl, eu molestie est. Pellentesque accumsan, ipsum ac posuere molestie, risus orci pharetra lacus, nec tempus augue justo a leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl eros, ullamcorper sit amet tincidunt sit amet, lobortis eget nisi. Morbi fermentum rhoncus sem, ut egestas nisi porttitor non. Mauris libero nunc, euismod nec pellentesque vitae, convallis eu augue.\r\n\r\nMaecenas non leo vel tortor blandit tempor a id dolor. Phasellus nec magna ut velit bibendum tristique tempus eget ipsum. Integer ullamcorper diam in eros tristique vitae auctor lorem auctor. Cras placerat bibendum auctor. Donec est est, auctor vel rhoncus vitae, aliquam eget nibh. Praesent lacinia semper mi, at semper massa vulputate non. Nullam vitae ipsum eros. Integer pulvinar justo consequat est cursus egestas. Praesent at scelerisque lorem. Nam porttitor lacus ligula. Morbi mi quam, adipiscing vel malesuada ac, venenatis eu augue. Nam et lectus pretium nibh mollis aliquam. ", 
+         "title": "Nullam vitae ipsum eros", 
+         "created_at": "2009-10-09 21:53:36", 
+         "updated_at": "2010-01-31 05:18:05", 
+         "user": 1, 
+         "published": true, 
+         "slug": "nullam-vitae-ipsum-eros"
+      }
+   }, 
+   {
+      "pk": 2, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer diam tellus, consectetur at accumsan nec, lacinia vitae libero. Sed viverra pretium urna, ut mattis tellus varius pellentesque. Nullam interdum augue sit amet nisl fermentum nec mollis erat volutpat. Fusce sit amet justo odio. Pellentesque in nisi nisl, eu molestie est. Pellentesque accumsan, ipsum ac posuere molestie, risus orci pharetra lacus, nec tempus augue justo a leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl eros, ullamcorper sit amet tincidunt sit amet, lobortis eget nisi. Morbi fermentum rhoncus sem, ut egestas nisi porttitor non. Mauris libero nunc, euismod nec pellentesque vitae, convallis eu augue.\r\n\r\nMaecenas non leo vel tortor blandit tempor a id dolor. Phasellus nec magna ut velit bibendum tristique tempus eget ipsum. Integer ullamcorper diam in eros tristique vitae auctor lorem auctor. Cras placerat bibendum auctor. Donec est est, auctor vel rhoncus vitae, aliquam eget nibh. Praesent lacinia semper mi, at semper massa vulputate non. Nullam vitae ipsum eros. Integer pulvinar justo consequat est cursus egestas. Praesent at scelerisque lorem. Nam porttitor lacus ligula. Morbi mi quam, adipiscing vel malesuada ac, venenatis eu augue. Nam et lectus pretium nibh mollis aliquam. ", 
+         "title": "Maecenas non leo vel tortor blandit", 
+         "created_at": "2009-10-09 21:43:23", 
+         "updated_at": "2010-01-31 05:18:12", 
+         "user": 1, 
+         "published": true, 
+         "slug": "maecenas-non-leo-vel-tortor-blandit"
+      }
+   }, 
+   {
+      "pk": 1, 
+      "model": "news.news", 
+      "fields": {
+         "body": "Lorem ipsum www.dolor.pl sit amet, consectetur adipiscing elit. Integer diam tellus, consectetur at accumsan nec, lacinia vitae libero. Sed viverra pretium urna, ut mattis tellus varius pellentesque. Nullam interdum augue sit amet nisl fermentum nec mollis erat volutpat. Fusce sit amet justo odio. Pellentesque in nisi nisl, eu molestie est. Pellentesque accumsan, ipsum ac posuere molestie, risus orci pharetra lacus, nec tempus augue justo a leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisl eros, ullamcorper sit amet tincidunt sit amet, lobortis eget nisi. Morbi fermentum rhoncus sem, ut egestas nisi porttitor non. Mauris libero nunc, euismod nec pellentesque vitae, convallis eu augue. ", 
+         "title": "Lorem ipsum dolor sit amet", 
+         "created_at": "2009-10-09 21:40:56", 
+         "updated_at": "2010-01-31 05:18:17", 
+         "user": 1, 
+         "published": true, 
+         "slug": "lorem-ipsum-dolor-sit-amet"
+      }
+   }
+]

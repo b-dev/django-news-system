@@ -1,0 +1,51 @@
+{% extends 'news/news_basic.html' %}
+{% load i18n %}
+
+{% block links %}
+	<ul>
+		<li><a href="feeds/rss/" title="rss"><img src="{{ MEDIA_URL }}icons/rss_feed.png" /></a></li>
+		<li><a href="feeds/atom/" title="atom"><img src="{{ MEDIA_URL }}icons/atom_feed.png" /></a></li>
+	</ul>
+{% endblock %}
+
+{% block main %}
+	<h2>{% trans "News" %}</h2>
+	{% if news.paginator.count %}
+		{% for news_obj in news.object_list %}
+			<h4><a href="{% url news-details news_obj.slug news.number %}">{{ news_obj.title }}</a></h4>
+			<span class="news-date">{{ news_obj.created_at|date:"d.m.Y" }}, {{ news_obj.user.get_full_name }}</span>
+			<p>
+				{{ news_obj.body|striptags|linebreaksbr|urlizetrunc:20|safe|truncatewords:words }} - <a href="{% url news-details news_obj.slug news.number %}">{% trans "more" %}</a>
+			</p>
+		{% endfor %}
+		<div class="pagination">
+		    <span class="step-links">
+		        {% if news.has_previous %}
+		        	<span class="paginator-left">
+		            	<a href="{% url list-news news.previous_page_number %}">&lt;&lt; {% trans "newer" %}</a>
+		            </span>
+		        {% endif %}
+				
+				{% if news.has_other_pages %}
+		        	{% for number in news.paginator.page_range %}
+		        		{% ifequal number news.number %}
+		        		<span class="current-page">{{ number }}</span>
+		        		{% else %}
+		        		<span class="no-current-page">
+		        			<a href="{% url list-news number %}">{{ number }}</a>
+				        </span>
+		        		{% endifequal %}
+		        	{% endfor %}
+				{% endif %}
+		
+		        {% if news.has_next %}
+		        	<span class="paginator-right">
+		            	<a href="{% url list-news news.next_page_number %}">{% trans "older" %} &gt;&gt;</a>
+		            </span>
+		        {% endif %}
+		    </span>
+		</div>
+	{% else %}
+		<p class="info">{% trans "No news so far" %}</p>
+	{% endif %}
+{% endblock %}

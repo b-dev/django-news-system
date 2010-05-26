@@ -1,0 +1,18 @@
+[
+  {
+    "pk": 2, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "www.test2.pl", 
+      "name": "Test 2"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "www.test1.pl", 
+      "name": "Test 1"
+    }
+  }
+]

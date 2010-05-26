@@ -1,0 +1,9 @@
+{% extends 'www-page.html' %}
+{% load i18n %}
+
+{% block title %}{{ block.super}} {% trans "News" %}{% endblock %}
+
+{% block extra_head %}
+	{{ block.super }}
+	<link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}style/news.css" />
+{% endblock %}
