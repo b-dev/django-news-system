@@ -2,12 +2,12 @@
 Django news system
 ******************
 
-Simple news system based on Django
+Simple news system based on Django.
 
 Requirements
 ============
 
-   All requirements are listed in ``requirements.txt`` file.
+All requirements are listed in ``requirements.txt`` file.
 
 Development environment
 =======================
