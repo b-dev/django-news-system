@@ -1,11 +1,6 @@
 from django.conf.urls.defaults import *
 from news.feeds import RssLatestNewsFeed, AtomLatestNewsFeed
 
-feeds = {
-    'rss': RssLatestNewsFeed,
-    'atom': AtomLatestNewsFeed
-}
-
 
 urlpatterns = patterns('news.views',
     url(r'^$', 'listing', name='list-news'),
@@ -15,5 +10,6 @@ urlpatterns = patterns('news.views',
 
 urlpatterns += patterns('',
     # RSS
-    (r'feeds/(?P<url>.*)/$', 'django.contrib.syndication.views.feed', {'feed_dict': feeds})
+    (r'feeds/rss/$', RssLatestNewsFeed()),
+    (r'feeds/atom/$', AtomLatestNewsFeed())
 )
